@@ -33,6 +33,11 @@ class FColor
 }
 class FVector2
 {
+    FVector2()
+    {
+        this.x=0;
+        this.y=0;
+    }
     
       FVector2(  X,  Y)
     {
